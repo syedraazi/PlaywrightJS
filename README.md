@@ -1,6 +1,6 @@
 # PlaywrightJS
 
-A collection of small JavaScript exercises and examples, organized by chapter. The current lessons cover JavaScript basics, keywords, identifiers, and comments.
+A collection of small JavaScript exercises and examples, organized by chapter. The current lessons cover JavaScript basics, keywords, identifiers, literals, and operators.
 
 ## Chapters
 
@@ -16,6 +16,23 @@ A collection of small JavaScript exercises and examples, organized by chapter. T
 - `06_KW_ID_rules1.js` and `07_Identifiers_rules2.js` — identifier naming rules and conventions.
 - `08_Comments.js` — single-line and multi-line comments.
 - `09_InterviewQues.js` — valid and invalid identifier examples, including case sensitivity and Unicode identifiers.
+
+### `03_chapter_JS_Literal`
+
+- `10_Literals.js` and `15_Literals_2.js` — introductory literal examples.
+- `11_Number_Literal.js` and `16_Numbers.js` — numeric literal concepts and output.
+- `17_Numbers_2.js` — additional number-literal examples.
+- `12_Undefined.js` and `13_Null_Undefined.js` — undefined and null behavior.
+- `14_Nulls.js` — explicit null examples.
+- `18_Special_Literals.js` — special literal and edge-case examples.
+
+### `04_chapter_JS_Operators`
+
+- `19_Arith_Opt.js` and `21_Arithmatic_Opt.js` — arithmetic operator examples.
+- `20_Assignment_Opt.js` — assignment operator examples.
+- `22_Comparison_Opt.js` — comparison operator demonstrations.
+- `23_Logical_Opt.js` — logical operators and boolean evaluation.
+- `24_Confusing_Comparison_Opt.js` — JavaScript comparison edge cases and surprising results.
 
 ## Run an example
 
