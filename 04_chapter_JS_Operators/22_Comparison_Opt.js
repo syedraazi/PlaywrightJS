@@ -21,3 +21,7 @@ console.log(5 !== "5"); // true (as it is checking both value + DataType so its 
 
 console.log(5 === 5); // true (as it is checking both value + DataType so its {equal to (===)} as it is equal)
 
+
+
+console.log("5" + 3);
+console.log("5" - 3);
