@@ -5,3 +5,5 @@ for (let somya = 0; somya < 18; ++somya) {
         console.log("No Gift, iphone only barbie doll")
     }
 }
+
+//loops
