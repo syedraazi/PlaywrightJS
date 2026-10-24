@@ -2,6 +2,19 @@
 
 A collection of small JavaScript exercises and examples, organized by chapter. The current lessons cover JavaScript basics, keywords, identifiers, literals, and operators.
 
+## Index
+
+- [01 - JavaScript Basics](#01_chapter_js_basic)
+- [02 - Keywords and Identifiers](#02_chapter_js_keywords_identifiers)
+- [03 - Literals](#03_chapter_js_literal)
+- [04 - Operators](#04_chapter_js_operators)
+- [05 - Increment and Decrement Operators](#05_chapter_js_incre_decr_op)
+- [06 - If/Else Conditions](#06_chatper_if_else_statement_condition)
+- [07 - Switch Statements](#07_chapter_switch)
+- [08 - User Input](#08_chapter_userinput)
+- [09 - Loops](#09_chapter_loops)
+- [Run an example](#run-an-example)
+
 ## Chapters
 
 ### `01_chapter_JS_Basic`
