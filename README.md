@@ -1,6 +1,6 @@
 # PlaywrightJS
 
-A collection of small JavaScript exercises and examples, organized by chapter. The current lessons cover JavaScript basics, keywords, identifiers, literals, and operators.
+A collection of small JavaScript exercises and examples, organized by chapter. Lessons cover JavaScript fundamentals, control flow, arrays, functions, and variable declarations, including hoisting and the temporal dead zone.
 
 ## Index
 
@@ -12,7 +12,12 @@ A collection of small JavaScript exercises and examples, organized by chapter. T
 - [06 - If/Else Conditions](#06_chatper_if_else_statement_condition)
 - [07 - Switch Statements](#07_chapter_switch)
 - [08 - User Input](#08_chapter_userinput)
-- [09 - Loops](#09_chapter_loops)
+- [09 - For Loops](#09_chapter_loops)
+- [10 - While Loops](#10_chapter_loops_while)
+- [11 - Do...While Loops](#11_chapter_loops_dowhile)
+- [12 - Arrays](#12_chapters_arrays)
+- [13 - Functions](#13_chapter_functions)
+- [14 - `var`, `let`, `const`, Hoisting, and TDZ](#14_chapter_var_let_const_hoisting_tdz)
 - [Run an example](#run-an-example)
 
 ## Chapters
@@ -72,11 +77,50 @@ A collection of small JavaScript exercises and examples, organized by chapter. T
 - `60_Prompt_Sync_User_Input.js` — prompt-sync example for terminal input.
 - `61_FS_Readfile.js` — file read example using the Node.js filesystem API.
 
-### `09_chapter_Loops`
+### `09_chapter_Loops` — For loops
 
 - `62_loops.js` — loop fundamentals.
 - `63_For_Loop.js`, `64_For_Loop.js` — repeated `for` loop exercises.
 - `65_Interview question.js` through `68_Interview Question.js` — loop interview questions and practice examples.
+
+### `10_chapter_Loops_WHILE` — While loops
+
+- `69_While_Loop.js` and `71_While.js` — while loop examples.
+- `70_Interview question.js` — while loop practice question.
+- `72_break.js` — using `break` to exit a loop.
+
+### `11_chapter_Loops_DoWhile` — Do...while loops
+
+- `73_do_while_loop.js` — do...while loop fundamentals.
+- `74_Interview Question.js` and `76_Interview question.js` — practice questions.
+- `75_Nested.js` — nested do...while loop example.
+
+### `12_chapters_Arrays`
+
+- `77_Arrays.js` through `80_TypesOfArrays.js` — array creation, indexing, length, and value types.
+- `81_Create_Array.js`, `82_Access_Modiy.js`, `83_Add_Remove_Splice.js`, and `84_Arrays.js` — creating and modifying arrays.
+- `85_Searching.js` and `86_find.js` — searching arrays with index and find methods.
+- `87_Iterates.js` and `88_Maps_Filters_Array_Transform.js` — iterating and transforming arrays.
+- `89_Sorting.js`, `90_Lexicographic Sort_Sorting.js`, `90_Lexicographic_Explain.md`, and `91_Normal_Sorting.js` — array sorting, including lexicographic and numeric order.
+- `92_Array_slicing.js` and `93_Slicing Explained.md` — slicing arrays.
+- `94_Array_Concat.js` through `99_Last type of array.js` — concatenation, checking, transforming, copying, and destructuring arrays.
+- `100_Swap.js` — swapping array values.
+
+### `13_chapter_Functions`
+
+- `101_Functions.js` through `105_Type4_Function.js` — function basics and function types.
+- `106_IMP_TemplateLiteral.js` — template literals in functions.
+- `107_Expression_Function.js` through `112_Real_Function.js` — function expressions, arrow functions, and practical examples.
+- `113_Spread_as_Arg_Function.js` — passing spread arguments to a function.
+- `115_Function_Return_Nested.js` and `116_Return_Fn.js` — nested and returned functions.
+- `ImmediatelyInvokedFunctionExpression_IIFE.js` — immediately invoked function expressions (IIFEs).
+
+### `14_chapter_Var_Let_Const_Hoisting_TDZ`
+
+- `117_var_let_const.js` through `120_const.js` — declarations with `var`, `let`, and `const`.
+- `121_Var_hoisting.js` through `123_Function_hoisting.js` — variable and function hoisting.
+- `124_VAR_TDZ`, `125_Let_TDZ`, and `126_Var.js` — declaration behavior and the temporal dead zone (TDZ).
+- `127_TDZ_TypeOf.js` — `typeof` with undeclared names and `let` bindings in the TDZ.
 
 ## Run an example
 
