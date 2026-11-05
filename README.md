@@ -28,6 +28,201 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 - [Self Practice](#self-practise)
 - [Run an example](#run-an-example)
 
+## Quick concept guide
+
+Short definitions and examples for the topics in this repository.
+
+### JavaScript Basics
+
+JavaScript runs instructions in order; use `console.log()` to display a value.
+
+```javascript
+console.log("Hello, world!");
+```
+
+### Keywords and Identifiers
+
+Keywords have a special meaning in JavaScript. Identifiers are names you choose for variables and functions.
+
+```javascript
+const userName = "Sam";
+```
+
+### Literals
+
+A literal is a value written directly in code, such as a number, string, boolean, or `null`.
+
+```javascript
+const answer = 42;
+```
+
+### Operators
+
+Operators perform calculations, comparisons, and logical checks.
+
+```javascript
+const total = 3 + 4;
+```
+
+### Increment and Decrement Operators
+
+`++` increases a number by one; `--` decreases it by one.
+
+```javascript
+let count = 0;
+count++;
+```
+
+### If/Else Conditions
+
+`if` and `else` choose which code to run based on a condition.
+
+```javascript
+if (score >= 50) console.log("Pass");
+else console.log("Try again");
+```
+
+### Switch Statements
+
+`switch` selects a code path by matching a value against different cases.
+
+```javascript
+switch (day) {
+    case "Monday": console.log("Start"); break;
+    default: console.log("Another day");
+}
+```
+
+### User Input
+
+Input lets a program receive information from a user; the method depends on the environment.
+
+```javascript
+const name = prompt("What is your name?");
+```
+
+### For Loops
+
+A `for` loop repeats code with an initializer, a condition, and an update.
+
+```javascript
+for (let i = 0; i < 3; i++) console.log(i);
+```
+
+### While Loops
+
+A `while` loop repeats as long as its condition is true.
+
+```javascript
+let i = 0;
+while (i < 3) console.log(i++);
+```
+
+### Do...While Loops
+
+A `do...while` loop runs its body at least once, then checks the condition.
+
+```javascript
+let i = 0;
+do { console.log(i++); } while (i < 3);
+```
+
+### Arrays
+
+An array stores an ordered collection of values.
+
+```javascript
+const colors = ["red", "blue"];
+console.log(colors[0]);
+```
+
+### Functions
+
+A function is a reusable block of code that can accept inputs and return a result.
+
+```javascript
+function add(a, b) { return a + b; }
+```
+
+### `var`, `let`, `const`, Hoisting, and TDZ
+
+`let` and `const` are block-scoped declarations; a `const` binding cannot be reassigned. The temporal dead zone (TDZ) is the time before a `let` or `const` declaration where it cannot be accessed.
+
+```javascript
+const language = "JavaScript";
+let version = 2026;
+```
+
+### Functions and Closures
+
+A closure is a function that retains access to variables from its outer scope.
+
+```javascript
+function makeCounter() {
+    let count = 0;
+    return () => ++count;
+}
+```
+
+### Strings
+
+A string is text; template literals use backticks to interpolate values.
+
+```javascript
+const greeting = `Hello, ${name}!`;
+```
+
+### Objects
+
+An object groups related values under named properties.
+
+```javascript
+const user = { name: "Sam", active: true };
+```
+
+### Multi-Dimensional Arrays
+
+A multi-dimensional array contains arrays, often used to represent rows and columns.
+
+```javascript
+const grid = [[1, 2], [3, 4]];
+console.log(grid[1][0]);
+```
+
+### Array Patterns
+
+Pattern exercises use loops and repetition to print shapes made from characters.
+
+```javascript
+for (let row = 1; row <= 3; row++) console.log("*".repeat(row));
+```
+
+### Callbacks
+
+A callback is a function passed to another function so it can be called at an appropriate time.
+
+```javascript
+setTimeout(() => console.log("Done"), 1000);
+```
+
+### Async/Await
+
+`async` and `await` provide a readable way to work with promises and asynchronous tasks.
+
+```javascript
+async function getValue() {
+    return await Promise.resolve("Ready");
+}
+```
+
+### Self Practice
+
+Practice combines concepts by applying them to small problems; `map()` is one way to transform each array item.
+
+```javascript
+const doubled = [1, 2, 3].map(number => number * 2);
+```
+
 ## Chapters
 
 ### `01_chapter_JS_Basic`
