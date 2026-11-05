@@ -14,3 +14,18 @@ console.log(fruits);
 
 
 // arrow Functions
+
+
+// const data = require('fs').readFileSync(0, 'utf8');
+// const n = parseInt(data.trim(), 10);
+// Write your solution here
+let n=4;
+for (let i = 0; i < n; i++)
+{
+    for (let j = 0; j <= i; j++)
+    {
+        process.stdout.write("*");
+    }
+    //process.stdout.write(" ");
+    console.log(" ");
+}
