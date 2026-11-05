@@ -1,6 +1,6 @@
 # PlaywrightJS
 
-A collection of small JavaScript exercises and examples, organized by chapter. Lessons cover JavaScript fundamentals, control flow, arrays, functions, and variable declarations, including hoisting and the temporal dead zone.
+A collection of small JavaScript exercises and examples, organized by chapter. Lessons cover JavaScript fundamentals, control flow, arrays, functions, strings, objects, closures, callbacks, and asynchronous JavaScript.
 
 ## Index
 
@@ -18,6 +18,14 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 - [12 - Arrays](#12_chapters_arrays)
 - [13 - Functions](#13_chapter_functions)
 - [14 - `var`, `let`, `const`, Hoisting, and TDZ](#14_chapter_var_let_const_hoisting_tdz)
+- [15 - Functions and Closures](#15_chapter_functions_closure)
+- [16 - Strings](#16_chapter_string)
+- [17 - Objects](#17_chapter_objects)
+- [18 - Multi-Dimensional Arrays](#18_chapter__multi_dimensions_array)
+- [18 - Array Patterns](#18_imp_pattern_array)
+- [19 - Callbacks](#19_chapter_callback)
+- [21 - Async/Await](#21_chatper_async_awaits)
+- [Self Practice](#self-practise)
 - [Run an example](#run-an-example)
 
 ## Chapters
@@ -121,6 +129,51 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 - `121_Var_hoisting.js` through `123_Function_hoisting.js` — variable and function hoisting.
 - `124_VAR_TDZ`, `125_Let_TDZ`, and `126_Var.js` — declaration behavior and the temporal dead zone (TDZ).
 - `127_TDZ_TypeOf.js` — `typeof` with undeclared names and `let` bindings in the TDZ.
+
+### `15_chapter_Functions_Closure`
+
+- `128_Closure.js` — a nested function that retains access to its outer function's variables.
+- `Closure.md` — notes distinguishing nested functions from closures.
+
+### `16_chapter_String`
+
+- `129_String_MultiLine.js` — template literals, interpolation, multiline strings, and string conversion.
+- `130_String_Function.js` — string length, indexing, `at()`, `charAt()`, and character codes.
+- `131_String_Search(Includes).js` — searching strings with `includes()`, `startsWith()`, `endsWith()`, and index methods.
+
+### `17_chapter_Objects`
+
+- `132_Objects.js` — object creation, property access, and case-sensitive keys.
+- `133_Object_CopyByReference.js` and `138_CallByRef_VS_CallByValue.js` — primitive values and object references.
+- `134_Real_Example.js` — a nested sample user object with methods.
+- `135_Object_Function.js` — a method that accesses its object's properties with `this`.
+- `136_Normal_Object.js` and `137_Config.js` — object examples and adding, updating, and deleting properties.
+- `139_Shallow Copy_VS_Deep Copy.js` — reference copies, spread-based shallow copies, and `structuredClone()`.
+
+### `18_chapter__Multi_Dimensions_Array`
+
+- `140_1D_Arrays.js` — a one-dimensional array.
+- `141_2D_Array.js` — accessing, updating, and measuring a two-dimensional array.
+- `142_REAL_Exmaple.js` — iterating through a matrix of test results.
+- `143_Array_function.js` — calculating row totals with `map()` and `reduce()`.
+
+### `18_IMP_Pattern_Array`
+
+- `144_Right_Hand_Patter.js` — printing an increasing left-aligned triangle pattern.
+- `145_Left_Hand_Pattern_Or_Reverse.js` — printing an inverted triangle with two loop approaches.
+- `146_Pyramid_Pattern.js` — printing pyramid and diagonal patterns.
+
+### `19_chapter_Callback`
+
+- `147_Callback.js` — placeholder for callback examples (currently empty).
+
+### `21_chatper_Async_Awaits`
+
+- `162_Async_Await.js` — notes on async functions, promises, and `await`.
+
+### `Self Practise`
+
+- `01_Maps_fn.js` — practice transforming arrays with `map()`.
 
 ## Run an example
 
