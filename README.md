@@ -165,7 +165,17 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 
 ### `19_chapter_Callback`
 
-- `147_Callback.js` — placeholder for callback examples (currently empty).
+- `147_Callback.js` — basic callback examples using named, anonymous, and arrow functions.
+- `147_Callback_Explanation.md` — beginner-friendly notes explaining callbacks, callback hell, and practical examples for future reference.
+- `147_Callback_Explanation.docx` — Word version of the same callback explanation.
+- `148_MoreExample_Callbacks.js` — extra callback examples and test-case-style callbacks.
+- `149_Callback_Sync.js` — synchronous callback behavior with `forEach()`.
+- `150_Callback_Async.js` — asynchronous callback behavior using `setTimeout()`.
+- `151_Callback_Hell.js` — nested callback flow using delayed step functions.
+- `152_Real_QA_CallBack_Code.js` — real-world QA automation flow using callbacks.
+- `153_Callback_Return.js` — callback examples with return values and function chaining ideas.
+- `154_Pyramid_DOOM.js` — nested callback pattern also known as the Pyramid of Doom.
+- `CallBack_RealQA_Example.txt` — plain text notes explaining a login-flow callback scenario.
 
 ### `21_chatper_Async_Awaits`
 
