@@ -24,6 +24,7 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 - [18 - Multi-Dimensional Arrays](#18_chapter__multi_dimensions_array)
 - [18 - Array Patterns](#18_imp_pattern_array)
 - [19 - Callbacks](#19_chapter_callback)
+- [20 - Promises](#20_chapter_promise)
 - [21 - Async/Await](#21_chatper_async_awaits)
 - [Self Practice](#self-practise)
 - [Run an example](#run-an-example)
@@ -205,6 +206,16 @@ A callback is a function passed to another function so it can be called at an ap
 setTimeout(() => console.log("Done"), 1000);
 ```
 
+### Promises
+
+A promise represents the eventual success or failure of an asynchronous operation. Use `.then()` for success and `.catch()` for failure.
+
+```javascript
+Promise.resolve("Ready")
+    .then(value => console.log(value))
+    .catch(error => console.error(error));
+```
+
 ### Async/Await
 
 `async` and `await` provide a readable way to work with promises and asynchronous tasks.
@@ -371,6 +382,16 @@ const doubled = [1, 2, 3].map(number => number * 2);
 - `153_Callback_Return.js` — callback examples with return values and function chaining ideas.
 - `154_Pyramid_DOOM.js` — nested callback pattern also known as the Pyramid of Doom.
 - `CallBack_RealQA_Example.txt` — plain text notes explaining a login-flow callback scenario.
+
+### `20_chapter_Promise`
+
+- `155_Promise.js` — creating promises and handling resolved and rejected results.
+- `156_Promise_Finally.js` — using `.finally()` for work that runs after either outcome.
+- `157_Promise_ImprovedVer.js` — chaining promises to model sequential QA login steps.
+- `158_Promise_ALL.js` — running promises together with `Promise.all()`.
+- `159_Promise_Settle.js` — collecting every outcome with `Promise.allSettled()`.
+- `160_Promise_Race.js` — using `Promise.race()` to observe the first settled promise.
+- `161_InterviewQuestion.js` — practice with promise resolution, chaining, rejection, and cleanup.
 
 ### `21_chatper_Async_Awaits`
 
