@@ -6,7 +6,7 @@ let scores = [
 
 // Matrix -> Row = Col ->
 
-/* map will fetch each element at a time and then reduce willl add valus of (0,0) and (0,1)
+/* map will fetch each element at a time and then reduce will add valus of (0,0) and (0,1)
 then sum of these will get added to (0,2)    */
 
 let rowsSum = scores.map(row => row.reduce((a,b) => a+b));
