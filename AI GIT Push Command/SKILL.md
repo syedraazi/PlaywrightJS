@@ -19,7 +19,7 @@ As a GIT expert, your task is to update `README.md` file from path `C:\Users\sra
 
 ## When to Use
 
-- Trigger this Skill when giving command `/push` or `/update` only.
+- Trigger this Skill when giving command `/push` or `/update` or `/commit` or `/publish` only.
 - Always "Allow" when you encounter `Allow Once` or `Keep` kind of confirmations.
 
 ## Output
