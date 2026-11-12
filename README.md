@@ -1,6 +1,6 @@
 # PlaywrightJS
 
-A collection of small JavaScript exercises and examples, organized by chapter. Lessons cover JavaScript fundamentals, control flow, arrays, functions, strings, objects, closures, callbacks, and asynchronous JavaScript.
+A collection of JavaScript exercises and examples, organized by chapter. Lessons cover JavaScript fundamentals, control flow, arrays, functions, strings, objects, classes, modules, asynchronous JavaScript, and Playwright.
 
 ## Index
 
@@ -26,6 +26,9 @@ A collection of small JavaScript exercises and examples, organized by chapter. L
 - [19 - Callbacks](#19_chapter_callback)
 - [20 - Promises](#20_chapter_promise)
 - [21 - Async/Await](#21_chatper_async_awaits)
+- [22 - Export and Import](#22_export_import)
+- [23 - Classes and Objects](#23_class_objects)
+- [24 - Playwright](#24_playwright)
 - [Self Practice](#self-practise)
 - [Run an example](#run-an-example)
 
@@ -397,6 +400,26 @@ const doubled = [1, 2, 3].map(number => number * 2);
 
 - `162_Async_Await.js` — notes on async functions, promises, and `await`.
 
+### `22_Export_Import`
+
+- `172_IE.js` and `173_IE.js` — named imports, including renaming imported exports.
+- `174_logs.js` and `Logs/logger.js` — default and named exports for logging functions.
+- `utils.js` and `testutils.js` — example utility modules and named exports.
+- `Interview Question.js` — import alias practice.
+
+The root `package.json` sets `"type": "module"`, so these examples use ES module `import` and `export` syntax.
+
+### `23_Class_Objects`
+
+- `Class.js` — class declarations, private fields, methods, and creating instances.
+
+### `24_Playwright`
+
+- `tests/example.spec.ts` — starter browser tests that check the Playwright site title and its getting-started link.
+- `playwright.config.ts` — Playwright Test configuration for Chromium, Firefox, and WebKit.
+
+This chapter is a separate npm project with its own `package.json`.
+
 ### `Self Practise`
 
 - `01_Maps_fn.js` — practice transforming arrays with `map()`.
@@ -426,3 +449,14 @@ node 08_chapter_UserInput/60_Prompt_Sync_User_Input.js 10
 ```
 
 Files like `58_UI.js` are browser-oriented examples and will not work in a Node.js terminal without a browser environment.
+
+### Run the Playwright tests
+
+From the repository root, install the Playwright project dependencies and browser binaries, then run its tests:
+
+```sh
+cd 24_Playwright
+npm install
+npx playwright install
+npx playwright test
+```
