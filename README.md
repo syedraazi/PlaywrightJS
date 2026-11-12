@@ -411,7 +411,7 @@ The root `package.json` sets `"type": "module"`, so these examples use ES module
 
 ### `23_Class_Objects`
 
-- `Class.js` — class declarations, private fields, methods, and creating instances.
+- `175_Class.js` — class declarations, private fields, methods, and creating instances.
 
 ### `24_Playwright`
 

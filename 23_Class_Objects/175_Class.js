@@ -2,6 +2,7 @@ class Person{
     // Attributes | Instance variables |  Data members | Properties
     #name;
     #age;
+    #color;
     #rollNo;
     #phoneNo;
 

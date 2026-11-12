@@ -2,7 +2,7 @@ import log from './Logs/logger.js'; //bcaz importing 'default import' thats why 
 import { logBetter, logBetter2 } from './Logs/logger.js'; 
 
 
-log('Starting');
+log('Starting This Log....');
 
 
 logBetter("Starting the TC of the app.vwo.com");
