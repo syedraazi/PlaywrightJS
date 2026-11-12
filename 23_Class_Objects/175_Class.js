@@ -5,7 +5,8 @@ class Person{
     #color;
     #rollNo;
     #phoneNo;
-    #Country
+    #Country;
+    #Gender;
 
     // Behaviour | Methods | Members Functions | 
     eat(){}
