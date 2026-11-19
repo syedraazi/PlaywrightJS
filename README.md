@@ -29,6 +29,12 @@ A collection of JavaScript exercises and examples, organized by chapter. Lessons
 - [22 - Export and Import](#22_export_import)
 - [23 - Classes and Objects](#23_class_objects)
 - [24 - Playwright](#24_playwright)
+- [25 - Classes and Constructors](#25_chapter_class_object_constructor)
+- [26 - Encapsulation](#26_chapter_oops_encapsulation)
+- [27 - Inheritance](#27_chapter_oops_inheritance)
+- [28 - Polymorphism](#28_oops_polymorphism)
+- [29 - Interview Questions](#29_interview-question)
+- [30 - TypeScript](#30_typescript)
 - [Self Practice](#self-practise)
 - [Run an example](#run-an-example)
 
@@ -416,9 +422,46 @@ The root `package.json` sets `"type": "module"`, so these examples use ES module
 ### `24_Playwright`
 
 - `tests/example.spec.ts` — starter browser tests that check the Playwright site title and its getting-started link.
+- `tests/LoginPage.spec.js` — login-page test example.
 - `playwright.config.ts` — Playwright Test configuration for Chromium, Firefox, and WebKit.
 
 This chapter is a separate npm project with its own `package.json`.
+
+### `25_chapter_Class_Object_Constructor`
+
+- `176_Constructor.js` through `187_IQ.js` — constructors, class methods, access modifiers, static methods, and class exercises.
+- `Constructor and Static Method.md` — notes on constructors and static methods.
+
+### `26_chapter_OOPs_Encapsulation`
+
+- `188_Encapsulation.js` through `194_IQ.js` — encapsulation examples, including a bank-account example and interview questions.
+
+### `27_chapter_OOPs_Inheritance`
+
+- `01_Single_Inheritance/` — examples of single inheritance.
+
+### `28_OOPs_Polymorphism`
+
+- `Compile Time/` and `Run time/` — compile-time and run-time polymorphism examples.
+
+### `29_Interview Question`
+
+- `209_IQ.js` through `212_IQ.js` — JavaScript interview exercises.
+- `212_IQ.ts` — a TypeScript version of an interview exercise.
+
+### `30_TypeScript`
+
+- `214_TP_1.ts` and `215_TS_Basics.ts` — TypeScript introductions and primitive types.
+- `216_Fn.ts` and `217_ArrowFunction.ts` — function and arrow-function type annotations.
+- `218_IMP.ts` — an example of the `never` type.
+- The root `tsconfig.json` contains the TypeScript compiler settings.
+
+Install the root project dependencies, then run a TypeScript lesson from the repository root:
+
+```sh
+npm install
+npx ts-node --esm 30_TypeScript/214_TP_1.ts
+```
 
 ### `Self Practise`
 
